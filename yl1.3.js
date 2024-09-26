@@ -11,5 +11,4 @@ rl.question("Sisestage astme alus : " , astmeAlus => {
         console.log(tulemus)
         rl.close()
     })
-    
-})
+   }) 
