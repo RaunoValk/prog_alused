@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 });
 let nr = Math.ceil(Math.random()*3);
 rl.question("Ise või loos?" , valik =>{
-    if(valik == "ise")  {
+    if(valik == "ise" || valik == "ISE" || valik == "Ise")  {
         rl.question("Aken või muu?" , aken => {
             if(aken == "aken") {
                 console.log("Valisite ise aknakoha!");
