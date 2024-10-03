@@ -6,16 +6,12 @@ const rl = readline.createInterface({
 });
 
 rl.question("Äratuste arv: " , äratus =>  {
-   const numäratus = parseInt(äratus, 10)
-   if(isNaN(numäratus)|| numäratus < 0 || numäratus == 0){
-    console.log("Sisestage positiivne number!")
-    rl.close()
-    
-   } else{
+   let i = 1
+   while(i <= äratus){
+    console.log("Tõuse ja sära!")
+    i++
+   }
 
-    
-    for (let i = 0; i < äratus; i++) {
-
-       console.log("Tõuse ja sära!")
+       
 rl.close()
-}}})
+})
